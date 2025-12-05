@@ -1,0 +1,226 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "id": "83523119-13dc-4400-8f12-9a8f3c71738a",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Hello, World!\n"
+     ]
+    }
+   ],
+   "source": [
+    "a=\"Hello, World!\"\n",
+    "print(a)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 2,
+   "id": "9a31a2dd-4ca5-429a-88e2-3ff40a27452e",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      " 3\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Weird\n"
+     ]
+    }
+   ],
+   "source": [
+    "n=int(input())\n",
+    "if n%2!=0:\n",
+    "    print('Weird')\n",
+    "elif n%2==0 and ((n>=2 and n<=5)or n>20):\n",
+    "    print('Not Weird')\n",
+    "elif n%2==0 and (n>=6 and n<=20):\n",
+    "    print('Weird')      \n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 3,
+   "id": "4067a131-91e6-4f04-b345-d074b59a97a3",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      " 3\n",
+      " 5\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "8\n",
+      "-2\n",
+      "15\n"
+     ]
+    }
+   ],
+   "source": [
+    "a = int(input())\n",
+    "b = int(input())\n",
+    "print(a+b)\n",
+    "print(a-b)\n",
+    "print(a*b)\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 4,
+   "id": "af8bc191-9273-4775-b453-89296d140e35",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      " 3\n",
+      " 5\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "0\n",
+      "0.6\n"
+     ]
+    }
+   ],
+   "source": [
+    "a = int(input())\n",
+    "b = int(input())\n",
+    "print(a // b)\n",
+    "print(a / b)\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 5,
+   "id": "4e003340-f5a7-4da0-bb17-275dd52c8328",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      " 3\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "0\n",
+      "1\n",
+      "4\n"
+     ]
+    }
+   ],
+   "source": [
+    "n = int(input())\n",
+    "for i in range(n):\n",
+    "    print(i**2)\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 7,
+   "id": "1d23796d-58ed-416a-897e-8f282c4726e0",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      " 1990\n"
+     ]
+    }
+   ],
+   "source": [
+    "def is_leap(year):\n",
+    "    leap = False\n",
+    "    if (year%4==0 and year%100!=0) or (year%400==0):\n",
+    "        leap=True\n",
+    "    return leap\n",
+    "\n",
+    "year = int(input())"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 8,
+   "id": "46eb77c3-9106-447e-a70a-1b67a9467b56",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      " 3\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "123"
+     ]
+    }
+   ],
+   "source": [
+    "n = int(input())\n",
+    "for i in range(1,n+1):\n",
+    "    print(i, end='')\n",
+    "    "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "2d70388c-96d4-47d3-b902-e9dd0aea0b26",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3 (ipykernel)",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.13.5"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
